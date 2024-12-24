@@ -1,0 +1,13 @@
+/* Add any custom animations or styling for your project section here */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.project-card {
+  animation: fadeIn 2s ease-in-out;
+};
